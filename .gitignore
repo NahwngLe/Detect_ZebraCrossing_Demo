@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model
+model_datav1_100epochs_0.55iou_expr10.h5
+model_final_0.6ious.h5
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm project files
+.idea/
+
+# VSCode settings (nếu dùng VSCode cũng)
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test results
+*.pytest_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# MyPy / Pylint / Pyright
+.mypy_cache/
+.pyright/
+.pylint.d/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
